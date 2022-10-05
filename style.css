@@ -1,0 +1,27 @@
+:root{
+    --color-primary: #d69593;
+    --color-secondary:#93c3bd;
+    --color-tertiary:#f6f6f8;
+    --color-fourth:#feefee;
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    min-width: 80%;
+    background: aquamarine;
+    padding: 40px;
+    
+}
+.navbar__list a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar__list {
+    list-style: none;
+}
