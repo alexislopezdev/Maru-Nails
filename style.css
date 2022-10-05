@@ -10,18 +10,36 @@
     box-sizing: border-box;
 }
 
+
 .navbar{
     display: flex;
-    min-width: 80%;
-    background: aquamarine;
+    justify-content: space-between;
+    width: 100%;
     padding: 40px;
+    position:fixed;
     
 }
 .navbar__list a {
-    color: white;
     text-decoration: none;
+    font-size: 20px;
+    color: black;
 }
 
 .navbar__list {
     list-style: none;
+}
+
+.home{
+    width: 100vw;
+    height: 2000px;
+    
+}
+
+section{
+    padding-top: 350px;
+}
+
+.home__title{
+    font-size: 8rem;
+    text-align: center;
 }
