@@ -8,38 +8,93 @@
 * {
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Prata', serif;
 }
 
-
+/* Navbar
+-------------------------------------------------------------- */
 .navbar{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 80%;
     padding: 40px;
     position:fixed;
+    left: 40px;
     
 }
 .navbar__list a {
     text-decoration: none;
     font-size: 20px;
-    color: black;
+    color: #383838;
+    padding: 10px;
 }
 
 .navbar__list {
     list-style: none;
 }
 
+/* End Navbar
+-------------------------------------------------------------- */
+/* Home
+-------------------------------------------------------------- */
 .home{
     width: 100vw;
-    height: 2000px;
+    height: 780px;
     
+}
+.maru__logo{
+    width: 147px;
+    height: 30px;
 }
 
 section{
-    padding-top: 350px;
+    padding-top: 300px;
 }
 
 .home__title{
     font-size: 8rem;
     text-align: center;
+    letter-spacing: 6px;
+    color: #383838;
+    transition: 1s;
+
 }
+.home__title:hover{
+    font-size: 9rem;
+    letter-spacing: 11px;
+    color: #383838;
+    cursor: pointer;
+}
+
+span{
+    color: var(--color-primary);
+    font-size: 10rem;
+}
+
+/* End Home
+-------------------------------------------------------------- */
+/* Servicios
+-------------------------------------------------------------- */
+.servicios{
+    width: 100vw;
+    height: 780px;
+    background-color:var(--color-primary);
+    padding-top: 0px;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    transition: 1s;
+}
+/*img:hover{
+    width: 500px;
+    height: 500px;
+    
+}*/
+
+/* End Servicios
+-------------------------------------------------------------- */
+
+
+
